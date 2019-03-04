@@ -1,0 +1,75 @@
+
+.chat-main{
+	position: fixed;
+	width: 270px;
+	bottom: 0;
+	right: 200px;
+}
+.chat-header{
+	background: #4267B2;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.username i{
+	font-size: 9px;
+}
+.username h6{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+}
+.options i{
+	font-size: 14px;
+    font-weight: normal;
+    opacity: 0.7;
+}
+.options .live-video{
+	font-size: 6px;
+}
+.chats{
+	height: 260px;
+	overflow-x: scroll;
+	overflow-x: hidden;
+}
+.chats ul li{
+	list-style: none;
+	clear: both;
+	font-size: 13px;
+}
+.chats .send-msg{
+	float: right;
+}
+.receive-msg img{
+	border-radius: 100%;
+	height: 30px;
+	width: 12%;
+}
+.receive-msg-img{
+	display: inline;
+}
+.receive-msg .receive-msg-desc{
+	display: inline-block;
+}
+.receive-msg .receive-msg-desc p{
+	background: #c1c1c1;
+}
+.message-box input{
+	border: none;
+	font-size: 13px;
+	opacity: 0.7;
+}
+.message-box input:focus{
+	outline: none;
+}
+.tools i{
+	color: #a1a1a1;
+	cursor: pointer;
+	font-size: 20px;
+	margin-right: 6px;
+}
+.speech-bubble-left { position: relative; background: #00aabb; border-radius: .4em; }
+.speech-bubble-left:after { content: ''; position: absolute; right: 0; top: 50%; width: 0; height: 0; border: 20px solid transparent; border-left-color: #00aabb; border-right: 0; border-bottom: 0; margin-top: -10px; margin-right: -20px; }
+
+
+.speech-bubble { position: relative; background: #00aabb; border-radius: .4em; }
+.speech-bubble:after { content: ''; position: absolute; left: 0; top: 50%; width: 0; height: 0; border: 20px solid transparent; border-right-color: #00aabb; border-left: 0; border-bottom: 0; margin-top: -10px; margin-left: -20px; }
